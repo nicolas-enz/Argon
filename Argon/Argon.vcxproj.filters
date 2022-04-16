@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entidades">
+      <UniqueIdentifier>{fa3ee73e-3e66-4646-9ab3-909f50f98f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entidades">
+      <UniqueIdentifier>{54847adc-bcd8-4605-931b-ed294239875b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Argon">
+      <UniqueIdentifier>{914d778f-3536-4b55-a167-7ecc28c8f2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Argon">
+      <UniqueIdentifier>{3913671d-87fa-4516-869a-6c3d0ac98772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Argon\Pantallas">
+      <UniqueIdentifier>{dcf7dc0f-e09e-42f8-a542-c76bb932c949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Argon\Layout">
+      <UniqueIdentifier>{f320eaba-c08d-46ad-8273-c0f6215bf172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Argon\Pantallas">
+      <UniqueIdentifier>{fda554c3-0720-40c4-9294-1f9adaf34994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Argon\Layout">
+      <UniqueIdentifier>{e4480cfb-2deb-4a32-b0b6-8cde5cf314c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Administradores">
+      <UniqueIdentifier>{b864c051-45f8-46d4-affb-432fdff304cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Administradores">
+      <UniqueIdentifier>{2b8d9ca9-f171-4c7c-a99a-02733990d104}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EntidadJuego.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Textura.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturaAnimada.h">
+      <Filter>Header Files\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminJuego.h">
+      <Filter>Header Files\Administradores</Filter>
+    </ClInclude>
+    <ClInclude Include="Graficos.h">
+      <Filter>Header Files\Administradores</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminBienes.h">
+      <Filter>Header Files\Administradores</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminAudio.h">
+      <Filter>Header Files\Administradores</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminEntradas.h">
+      <Filter>Header Files\Administradores</Filter>
+    </ClInclude>
+    <ClInclude Include="AyudaMatematica.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Temporizador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemigo.h">
+      <Filter>Header Files\Argon</Filter>
+    </ClInclude>
+    <ClInclude Include="Nivel.h">
+      <Filter>Header Files\Argon</Filter>
+    </ClInclude>
+    <ClInclude Include="Piso.h">
+      <Filter>Header Files\Argon</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa.h">
+      <Filter>Header Files\Argon</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugador.h">
+      <Filter>Header Files\Argon</Filter>
+    </ClInclude>
+    <ClInclude Include="AyudaString.h">
+      <Filter>Header Files\Argon</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaCofre.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaContinuar.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaGameOver.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaInicio.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaMapa.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaMercader.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaOpciones.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaPelea.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminPantalla.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="Banner.h">
+      <Filter>Header Files\Argon\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="BarraLateral.h">
+      <Filter>Header Files\Argon\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Botones.h">
+      <Filter>Header Files\Argon\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>Header Files\Argon\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Opciones.h">
+      <Filter>Header Files\Argon\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaAyuda.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaJefe.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaFogata.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+    <ClInclude Include="PantallaVictoria.h">
+      <Filter>Header Files\Argon\Pantallas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntidadJuego.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Textura.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturaAnimada.cpp">
+      <Filter>Source Files\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminJuego.cpp">
+      <Filter>Source Files\Administradores</Filter>
+    </ClCompile>
+    <ClCompile Include="Graficos.cpp">
+      <Filter>Source Files\Administradores</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminBienes.cpp">
+      <Filter>Source Files\Administradores</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminAudio.cpp">
+      <Filter>Source Files\Administradores</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminEntradas.cpp">
+      <Filter>Source Files\Administradores</Filter>
+    </ClCompile>
+    <ClCompile Include="Temporizador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nivel.cpp">
+      <Filter>Source Files\Argon</Filter>
+    </ClCompile>
+    <ClCompile Include="Piso.cpp">
+      <Filter>Source Files\Argon</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa.cpp">
+      <Filter>Source Files\Argon</Filter>
+    </ClCompile>
+    <ClCompile Include="Jugador.cpp">
+      <Filter>Source Files\Argon</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemigo.cpp">
+      <Filter>Source Files\Argon</Filter>
+    </ClCompile>
+    <ClCompile Include="AyudaString.cpp">
+      <Filter>Source Files\Argon</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminPantalla.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaCofre.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaContinuar.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaGameOver.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaPelea.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaOpciones.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaMercader.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaInicio.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaMapa.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="Banner.cpp">
+      <Filter>Source Files\Argon\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="BarraLateral.cpp">
+      <Filter>Source Files\Argon\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Botones.cpp">
+      <Filter>Source Files\Argon\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout.cpp">
+      <Filter>Source Files\Argon\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Opciones.cpp">
+      <Filter>Source Files\Argon\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaAyuda.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaJefe.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaFogata.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+    <ClCompile Include="PantallaVictoria.cpp">
+      <Filter>Source Files\Argon\Pantallas</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
